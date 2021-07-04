@@ -1,0 +1,314 @@
+/* Start Main Rules */
+
+body {
+  /* margin: 0 25px; */
+  background: url("../images/login.jpeg") no-repeat;
+  background-size: cover;
+  background-color: #333;
+  font-size: 16px;
+  height: 3000px;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* End Main Rules */
+.asterisk {
+  font-size: 10px;
+  position: absolute;
+  right: 27px;
+  top: 13px;
+  color: rgb(209, 36, 36);
+}
+/* Start Login Form  */
+.login {
+  background-color: rgba(0, 0, 0, 0.363);
+  width: 400px;
+  margin: 70px auto;
+  padding: 70px 30px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.login i {
+  margin: 0 0 25px;
+  color: #00b9cdd7;
+}
+
+.login h4 {
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+}
+.login input {
+  margin-bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+
+.login .form-control {
+  background-color: #efefef;
+  position: relative;
+}
+
+.login .btn {
+  background-color: #00b9cde0;
+}
+/* End Login Form  */
+
+/* Start Bootstrap Edits */
+.navbar {
+  padding: 1rem 2rem;
+}
+.nav-item .dropdown {
+  background-color: rgba(255, 255, 255, 0.671);
+}
+.dropdown-menu {
+  color: #fff;
+  background-color: rgba(70, 68, 68, 0.644);
+  padding: 11px 12px;
+  margin: 7px -50px 0;
+}
+.dropdown-menu > li > a:hover {
+  color: #fff;
+  background-color: rgba(167, 167, 167, 0.644);
+}
+/* End Bootstrap Edits */
+
+/* Start dash board page */
+.home-stats .stat {
+  border-radius: 10px;
+  /* border: 1px solid #ccc; */
+  padding: 20px;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+}
+.home-stats .info {
+  float: right;
+}
+.latest .toggel-info {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.5s all ease-out;
+  padding: 0 5px;
+  border-radius: 55%;
+  border: 1px solid #392d4ea4;
+}
+.latest .toggel-info:hover {
+  color: rgba(255, 255, 255, 0.644);
+  border: 1px solid #a394bda4;
+}
+.home-stats .stat i {
+  position: absolute;
+  font-size: 54px;
+  left: 30px;
+  top: 40px;
+}
+.home-stats .stat a {
+  color: #fff;
+}
+.home-stats .stat a:hover {
+  text-decoration: none;
+}
+.home-stats .st-members {
+  background-color: #f44336;
+}
+.home-stats .st-pending {
+  background-color: #e91e63;
+}
+.home-stats .st-items {
+  background-color: #9c27b0;
+}
+.home-stats .st-comments {
+  background-color: #673ab7;
+}
+.home-stats .stat span {
+  font-size: 50px;
+  display: block;
+}
+.latest .card-heading {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+.list-group-item .btn {
+  padding: 0px 5px;
+}
+.list-group-item:nth-child(odd) {
+  background-color: rgba(79, 230, 74, 0.548);
+}
+.latest-users li {
+  padding: 5px;
+}
+.latest .comment-box {
+  margin: 5px 0 10px;
+}
+.latest .comment-box .user-name,
+.latest .comment-box .user-comm {
+  float: left;
+}
+.latest .comment-box .user-name {
+  width: 80px;
+  text-align: center;
+  margin-right: 20px;
+  position: relative;
+  margin-top: 8px;
+}
+.latest .comment-box .user-comm {
+  width: calc(100% - 100px);
+  background-color: #c3c1c1;
+  padding: 10px;
+  position: relative;
+}
+.latest .comment-box .user-comm::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -28px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent #c3c1c1 transparent transparent;
+  border-width: 15px;
+}
+/* End dash board page */
+
+/* Start members page */
+
+h2 {
+  font-size: 55px;
+  margin: 40px 0;
+  font-weight: bold;
+  color: #666;
+}
+.form-Edit {
+  padding: 40px;
+  box-shadow: rgba(50, 50, 93, 0.287) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.39) 0px 18px 36px -18px inset;
+}
+
+.show-pass {
+  position: absolute;
+  top: 11px;
+  right: 41px;
+  cursor: pointer;
+}
+
+.main-table th {
+  color: #fff;
+  background-color: #333;
+}
+.main-table td {
+  background-color: rgb(255, 255, 255);
+  border-color: #333;
+}
+
+.main-table tbody .btn {
+  padding: 2px 10px;
+}
+
+/* End members page */
+/* Start Category page */
+.categories .cat {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.categories .cat h3 {
+  cursor: pointer;
+}
+.categories .cat:hover {
+  background-color: #eee;
+  border-left: 7px solid #ebb8b894;
+  border-radius: 7px 0px 5px 5px;
+  border-style: inset;
+}
+.categories .cat:hover .hidden-buttons {
+  right: 10px;
+}
+.categories .cat .hidden-buttons {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  top: 15px;
+  right: -160px;
+}
+.categories .cat:last-of-type ~ hr {
+  display: none;
+}
+.categories .cat .visibility {
+  background-color: #d35400;
+  color: #fff;
+  padding: 4px 6px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+.categories .cat .commenting {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 4px 6px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+.categories .cat .advertises {
+  background-color: #c0392b;
+  color: #fff;
+  padding: 4px 6px;
+  margin-right: 6px;
+  border-radius: 6px;
+}
+.categories .option {
+  border: 2px solid rgba(207, 98, 98, 0.411);
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+.categories .option a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 2px;
+}
+.categories .option span {
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.categories .option a.active {
+  color: rgb(202, 84, 84);
+  text-decoration: none;
+  font-size: 16px;
+}
+.categories .option span.active {
+  color: rgb(202, 84, 84);
+  font-size: 16px;
+}
+.ordering {
+  display: inline-block;
+  padding: 2px 23px;
+  border: 1.5px dashed rgb(202, 84, 84);
+}
+.view {
+  display: inline-block;
+  padding: 2px 23px;
+  border: 1.5px dashed rgb(202, 84, 84);
+}
+/* End Category page */
+/* start Avatar */
+.avatar {
+  width: 60px;
+  height: 60px;
+}
+/* End Avatar */
